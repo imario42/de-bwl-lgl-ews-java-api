@@ -307,9 +307,11 @@ Mal schauen, ob der update auf version 4.5.3 hilft.
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
+                        <!--
                         <goals>
                             <goal>jar</goal>
                         </goals>
+                        -->
                     </execution>
                 </executions>
             </plugin>
@@ -320,9 +322,11 @@ Mal schauen, ob der update auf version 4.5.3 hilft.
                 <executions>
                     <execution>
                         <id>attach-sources</id>
+                        <!--
                         <goals>
                             <goal>jar-no-fork</goal>
                         </goals>
+                        -->
                     </execution>
                 </executions>
             </plugin>
@@ -341,9 +345,11 @@ Mal schauen, ob der update auf version 4.5.3 hilft.
                     <execution>
                         <id>check-java16-sun</id>
                         <phase>test</phase>
+                        <!--
                         <goals>
                             <goal>check</goal>
                         </goals>
+                        -->
                     </execution>
                 </executions>
             </plugin>

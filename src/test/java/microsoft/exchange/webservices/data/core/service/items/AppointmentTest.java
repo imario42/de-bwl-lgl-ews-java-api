@@ -34,13 +34,13 @@ import microsoft.exchange.webservices.data.core.enumeration.misc.ExchangeVersion
 import microsoft.exchange.webservices.data.core.service.item.Appointment;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
+import org.mockito.junit.MockitoJUnitRunner;
 
 
 /**
  * Testclass for methods of Appointment
  */
-@RunWith(JUnit4.class)
+@RunWith(MockitoJUnitRunner.class)
 public class AppointmentTest {
 
   private final ExchangeService exchangeService = mock(ExchangeService.class);

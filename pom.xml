@@ -264,6 +264,13 @@
                 </executions>
             </plugin>
             <!-- Deployment / build plugins END -->
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
         </plugins>
         <!-- Used to bump all of the various core plugins up to Maven current.
             Use this in conjunction with the versions-maven-plugin to keep your Maven

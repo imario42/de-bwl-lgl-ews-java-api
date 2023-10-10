@@ -29,7 +29,7 @@
     <groupId>at.datenwort.ews</groupId>
     <artifactId>de-bwl-lgl-ews-java-api</artifactId>
 
-    <version>3.0.1</version>
+    <version>3.0.2-SNAPSHOT</version>
 
     <name>Exchange Web Services Java API</name>
     <description>Exchange Web Services (EWS) Java API</description>
@@ -179,7 +179,7 @@
         <url>git@github.com:imario42/de-bwl-lgl-ews-java-api.git</url>
         <connection>scm:git:git://github.com/imario42/de-bwl-lgl-ews-java-api.git</connection>
         <developerConnection>scm:git:https://github.com/imario42/de-bwl-lgl-ews-java-api.git</developerConnection>
-      <tag>de-bwl-lgl-ews-java-api-3.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <distributionManagement>

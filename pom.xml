@@ -31,7 +31,7 @@
     <groupId>at.datenwort.ews</groupId>
     <artifactId>de-bwl-lgl-ews-java-api</artifactId>
 
-    <version>3.0.0-SNAPSHOT</version>
+    <version>3.0.1-SNAPSHOT</version>
 
     <name>Exchange Web Services Java API</name>
     <description>Exchange Web Services (EWS) Java API</description>
